@@ -1,5 +1,7 @@
-def add(a, b):
-    return a + b
-
-sum = add(a=4, b=4)
-print(sum)
+class Opr:
+    def diff(self, n, m):
+        return n - m
+    
+o = Opr()
+q = o.diff(n=4, m=3)
+print(q)
